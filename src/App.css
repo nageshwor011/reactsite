@@ -1,0 +1,22 @@
+.nab{
+  background-color: rgba(233, 233, 233, 0.2);
+}
+.navbar-brand:hover, .nav-link:hover{
+  color: rgb(111, 202, 255) !important;
+}
+.linkActive{
+  border-bottom: 1px solid red;
+font-weight: bold;
+}
+.animations{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+
+}
+@keyframes up-down{
+  0%{
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
